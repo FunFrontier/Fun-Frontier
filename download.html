@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Frontier</title>
+    <style>
+        .navbar{
+            background-color: black;
+            border: solid rgb(0, 0, 0);
+           
+        }
+
+        .navbar ul{
+            overflow: auto;
+        }
+
+        .navbar li{
+            float:right;
+            list-style: none;
+            margin: 15px;
+            padding-top: 10px;
+            
+            
+        }
+
+        .navbar li a{
+            padding: 39px 25px;
+            text-decoration: none;
+            color: white;
+            font-size: large;
+            font-family: cursive;
+            cursor:crosshair;            
+        }
+  
+        .navbar li a:hover{
+            background-color: rgb(187, 187, 187);  
+            color: rgb(0, 0, 0);
+        }
+        .container{
+            margin-top: 20px;
+            border: 4px solid black;
+            margin-right: 1600px;
+            margin-left: 10px;
+            padding: 10px;
+            background-color: rgb(223, 223, 223);
+            font-size: 25px;
+            font-family: cursive;
+        }
+        .gradient-button{
+            background-image: linear-gradient(to right , #4e0eff, #ff68e6); 
+
+        }
+            
+        .gradient-button:hover {
+            background-image: linear-gradient(to right , #000000, #6e6e6e);         
+            transform: scale(1.1);
+            transition-duration: 0.1s;
+        }
+          
+        .navbar img{
+            float:Left;
+            list-style: none;
+            margin: 15px;
+            padding-top: 10px;
+        }
+
+             
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class = "navbar">
+            <img style="height: 80px;" src="Pyelite.png" alt="logo">
+            <ul>
+                <li style="float:left; color: aliceblue; font-family: cursive; font-size: 35px;">
+                    Fun Frontier
+                </li>               
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="logo.png" alt="logo">
+        <p>A scripted chatbot made in python. </p>
+        <div style="font-family: cursive; font-size: 0px;">
+           <button class="gradient-button" style="font-family: cursive; font-size: 20px; background-color: rgb(46, 46, 46) ; color: rgb(255, 255, 255) ; border: none; width: 180px ;height: 50px; border-radius: 45px; margin-left: 35px; cursor: crosshair; " onclick="window.location.href='chatNRK1.exe'">Download</button>
+
+        </div>
+        <p style="font-size: 20px; margin-left: 35px; font-weight: bolder; margin-top:0px;">
+            executable(.exe)file
+        </p>
+
+    </div>
+    <div><footer>
+        <hr style = "margin-top: 197px;">
+        <footer style = "font-size: large; font-weight: bold; margin-left: 800px;">
+            Created by - Nishant Raj Kumawat
+        </footer>
+    </div>
+</body>
